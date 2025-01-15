@@ -39,10 +39,10 @@ class _UploadPageState extends State<UploadPage> {
       // Uri.parse("http://10.0.0.246:5000/upload"),
 
       // rick's pythonanywhere server
-      // Uri.parse("https://rickwang577.pythonanywhere.com/upload"),
+      Uri.parse("https://rickwang577.pythonanywhere.com/upload"),
 
       // tyler's pythonanywhere server
-      Uri.parse("https://tylikespie.pythonanywhere.com/upload"),
+      // Uri.parse("https://tylikespie.pythonanywhere.com/upload"),
     );
 
     request.files.add(
@@ -62,6 +62,7 @@ class _UploadPageState extends State<UploadPage> {
       // decode the response from a json string into a flutter object
       final responseData = jsonDecode(response.body);
       print(responseData["prediction"]);
+      print(responseData);
       setState(() {
         _serverResponse = responseData["prediction"][0];
       });
