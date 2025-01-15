@@ -32,9 +32,7 @@ class _HomePageState extends State<HomePage> {
   Future<void> _uploadImage() async {
     final request = http.MultipartRequest(
       "POST",
-      // Uri.parse("http://10.0.0.246:5000/upload"),
-      // Uri.parse("https://rickwang577.pythonanywhere.com/upload"),
-      Uri.parse("https://tylikespie.pythonanywhere.com/upload"),
+      Uri.parse("http://10.0.0.246:5000/upload"),
     );
 
     request.files.add(
@@ -60,8 +58,6 @@ class _HomePageState extends State<HomePage> {
 
     } else {
       print("Failed to upload image");
-      print(response.statusCode);
-      print(response.body);
       setState(() {
         _serverResponse = "Failed to get prediction from server";
       });
@@ -108,3 +104,30 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+// if (condition) {
+//   print(A)
+// } else {
+//   print(B)
+// }
+
+// ternary operator "?"
+// (condition) ? print(A) : print(B)
+
+
+// setState():
+// The set state function tells our app to refresh the screen, that way our
+// app will display the latest data.
+
+// async and await
+// def main():
+//   print("program starts..")
+//   selectImage()
+//   async uploadImage()
+//   print("program ended")
+//   await print(server.response)
+//
+
+
+
+

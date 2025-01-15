@@ -30,6 +30,7 @@ class _A1PageState extends State<A1Page> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
+      // backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
       backgroundColor: Theme.of(context).colorScheme.primaryBackground,
       body: Column(
         mainAxisSize: MainAxisSize.max,
@@ -64,7 +65,7 @@ class _A1PageState extends State<A1Page> {
                               shape: BoxShape.circle,
                             ),
                             // child: Image.asset(
-                            //   'assets/cat.jpg',
+                            //   'assets/images/avatar.png',
                             // ),
                           ),
                         ),
@@ -79,7 +80,17 @@ class _A1PageState extends State<A1Page> {
                             Row(
                               mainAxisSize: MainAxisSize.max,
                               children: [
-                                Text("Hi there"),
+                                Text("hi"
+                                  // FFLocalizations.of(context).getText(
+                                  //   'ucqlrrlk' /* Welcome, */,
+                                  // ),
+                                  // style: FlutterFlowTheme.of(context)
+                                  //     .headlineSmall
+                                  //     .override(
+                                  //   fontFamily: 'Lexend',
+                                  //   letterSpacing: 0.0,
+                                  // ),
+                                ),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       4, 0, 0, 0),
@@ -87,7 +98,17 @@ class _A1PageState extends State<A1Page> {
                                 ),
                               ],
                             ),
-                            Text("Hi there"),
+                            Text("hi"
+                              // FFLocalizations.of(context).getText(
+                              //   'c10wb3ot' /* Your account Details are below... */,
+                              // ),
+                              // style: FlutterFlowTheme.of(context)
+                              //     .bodyMedium
+                              //     .override(
+                              //   fontFamily: 'Lexend',
+                              //   letterSpacing: 0.0,
+                              // ),
+                            ),
                           ],
                         ),
                       ),
@@ -99,7 +120,17 @@ class _A1PageState extends State<A1Page> {
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     children: [
-                      Text("Hi there"),
+                      Text("hi"
+                        // FFLocalizations.of(context).getText(
+                        //   '6z1sm34j' /* Total Balance */,
+                        // ),
+                        // style: FlutterFlowTheme.of(context)
+                        //     .bodyMedium
+                        //     .override(
+                        //   fontFamily: 'Lexend',
+                        //   letterSpacing: 0.0,
+                        // ),
+                      ),
                     ],
                   ),
                 ),
@@ -108,7 +139,18 @@ class _A1PageState extends State<A1Page> {
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     children: [
-                      Text("Hi there"),
+                      Text("hi"
+                        // FFLocalizations.of(context).getText(
+                        //   'c0dls4u5' /* $25,202 */,
+                        // ),
+                        // style: FlutterFlowTheme.of(context)
+                        //     .displaySmall
+                        //     .override(
+                        //   fontFamily: 'Lexend',
+                        //   fontSize: 32,
+                        //   letterSpacing: 0.0,
+                        // ),
+                      ),
                     ],
                   ),
                 ),
@@ -134,8 +176,28 @@ class _A1PageState extends State<A1Page> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Hi there"),
-                        Text("Hi there"),
+                        Text("hi"
+                          // FFLocalizations.of(context).getText(
+                          //   '30yef7fj' /* Payroll Due */,
+                          // ),
+                          // style: FlutterFlowTheme.of(context)
+                          //     .bodySmall
+                          //     .override(
+                          //   fontFamily: 'Lexend',
+                          //   letterSpacing: 0.0,
+                          // ),
+                        ),
+                        Text("hi"
+                          // FFLocalizations.of(context).getText(
+                          //   'zrx9e6tv' /* $12,245 */,
+                          // ),
+                          // style: FlutterFlowTheme.of(context)
+                          //     .displaySmall
+                          //     .override(
+                          //   fontFamily: 'Lexend',
+                          //   letterSpacing: 0.0,
+                          // ),
+                        ),
                         Padding(
                           padding:
                           EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
@@ -144,7 +206,17 @@ class _A1PageState extends State<A1Page> {
                         Padding(
                           padding:
                           EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
-                          child: Text("Hi there"),
+                          child: Text("hi"
+                            // FFLocalizations.of(context).getText(
+                            //   '726vrs60' /* Aug 31, 2021 */,
+                            // ),
+                            // style: FlutterFlowTheme.of(context)
+                            //     .headlineSmall
+                            //     .override(
+                            //   fontFamily: 'Lexend',
+                            //   letterSpacing: 0.0,
+                            // ),
+                          ),
                         ),
                         Padding(
                           padding:
@@ -168,8 +240,28 @@ class _A1PageState extends State<A1Page> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Hi there"),
-                        Text("Hi there"),
+                        Text("hi"
+                          // FFLocalizations.of(context).getText(
+                          //   'n87v5tth' /* Marketing Budget */,
+                          // ),
+                          // style: FlutterFlowTheme.of(context)
+                          //     .bodySmall
+                          //     .override(
+                          //   fontFamily: 'Lexend',
+                          //   letterSpacing: 0.0,
+                          // ),
+                        ),
+                        Text("hi"
+                          // FFLocalizations.of(context).getText(
+                          //   'l5pw5c8c' /* $4,000 */,
+                          // ),
+                          // style: FlutterFlowTheme.of(context)
+                          //     .displaySmall
+                          //     .override(
+                          //   fontFamily: 'Lexend',
+                          //   letterSpacing: 0.0,
+                          // ),
+                        ),
                         Padding(
                           padding:
                           EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
@@ -178,7 +270,17 @@ class _A1PageState extends State<A1Page> {
                         Padding(
                           padding:
                           EdgeInsetsDirectional.fromSTEB(0, 4, 0, 0),
-                          child: Text("Hi there"),
+                          child: Text("hi"
+                            // FFLocalizations.of(context).getText(
+                            //   '9a2ya1la' /* $3,402 */,
+                            // ),
+                            // style: FlutterFlowTheme.of(context)
+                            //     .headlineSmall
+                            //     .override(
+                            //   fontFamily: 'Lexend',
+                            //   letterSpacing: 0.0,
+                            // ),
+                          ),
                         ),
                         Padding(
                           padding:
@@ -220,7 +322,17 @@ class _A1PageState extends State<A1Page> {
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
                         children: [
-                          Text("Hi there"),
+                          Text("hi"
+                            // FFLocalizations.of(context).getText(
+                            //   'lmo3ko2i' /* Quick Services */,
+                            // ),
+                            // style: FlutterFlowTheme.of(context)
+                            //     .bodyMedium
+                            //     .override(
+                            //   fontFamily: 'Lexend',
+                            //   letterSpacing: 0.0,
+                            // ),
+                          ),
                         ],
                       ),
                     ),
@@ -251,7 +363,7 @@ class _A1PageState extends State<A1Page> {
                                     child: Icon(
                                       Icons.account_balance_outlined,
                                       color: Theme.of(context).colorScheme.primaryText,
-                                          // .primaryText,
+                                      // .primaryText,
                                       size: 36,
                                     ),
                                   ),
@@ -305,7 +417,8 @@ class _A1PageState extends State<A1Page> {
                                           0, 0, 0, 12),
                                       child: Icon(
                                         Icons.swap_horiz_outlined,
-                                        color: Theme.of(context).colorScheme.primaryText,
+                                        color: Theme.of(context).colorScheme
+                                            .primaryText,
                                         size: 36,
                                       ),
                                     ),
@@ -351,7 +464,8 @@ class _A1PageState extends State<A1Page> {
                                           0, 0, 0, 12),
                                       child: Icon(
                                         Icons.stacked_line_chart_rounded,
-                                        color: Theme.of(context).colorScheme.primaryText,
+                                        color: Theme.of(context).colorScheme
+                                            .primaryText,
                                         size: 36,
                                       ),
                                     ),
@@ -404,12 +518,13 @@ class _A1PageState extends State<A1Page> {
                                     0, 0, 8, 0),
                                 child: Icon(
                                   Icons.notifications_sharp,
-                                  color: Theme.of(context).colorScheme.primaryText,
+                                  color: Theme.of(context).colorScheme
+                                      .primaryText,
                                   size: 24,
                                 ),
                               ),
                               Expanded(
-                                child: Text("Hi there"
+                                child: Text("hi"
                                   // FFLocalizations.of(context).getText(
                                   //   'nb29ps2o' /* 1 New Alert */,
                                   // ),
@@ -421,7 +536,7 @@ class _A1PageState extends State<A1Page> {
                                   // ),
                                 ),
                               ),
-                              Text("Hi there"
+                              Text("hi"
                                 // FFLocalizations.of(context).getText(
                                 //   'vgt9s153' /* View Now */,
                                 // ),
@@ -454,3 +569,5 @@ class _A1PageState extends State<A1Page> {
     );
   }
 }
+
+
